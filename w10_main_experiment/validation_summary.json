@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "checks": {
+    "full_3456_unique_grid": true,
+    "fixed_36_targets_134_background_170_nodes": true,
+    "all_16_topics_3_years_and_2_models": true,
+    "memberships_normalized": true,
+    "frozen_population_22067_matches_status": true,
+    "pooled_pairs_106423_unique": true,
+    "strict_source_year_type_and_chronology": true,
+    "independent_N_C_reconstruction": true,
+    "model_formulas_zero_undefined_rules": true,
+    "identical_N_C_across_models": true,
+    "original_competition_rank_and_top5_rules": true,
+    "cached_prestige_only_and_fixed_point_verified": true,
+    "A_B_correlations_and_top5_verified": true,
+    "adjacent_year_common_population_correlations_verified": true,
+    "parameter_audit_all_pass": true,
+    "19_unresolved_journal_years_disclosed": true,
+    "all_protected_inputs_and_original_results_unchanged": true,
+    "three_window_union_is_101282_not_pooled_count": true,
+    "six_sheet_xlsx_matches_all_csv_cells": true,
+    "no_pagerank_llm_collection_or_sensitivity": true,
+    "inherited_and_adapter_unit_tests_passed": true
+  },
+  "ranking_rows": 3456,
+  "records_per_year_model": 576,
+  "target_journals": 36,
+  "background_journals": 134,
+  "fixed_nodes": 170,
+  "topics": 16,
+  "evaluation_years": [
+    2023,
+    2024,
+    2025
+  ],
+  "pooled_accepted_pairs": 106423,
+  "three_window_union_pairs": 101282,
+  "annual_pair_counts": [
+    {
+      "year": 2023,
+      "eligible_pairs": 58415
+    },
+    {
+      "year": 2024,
+      "eligible_pairs": 57161
+    },
+    {
+      "year": 2025,
+      "eligible_pairs": 56538
+    }
+  ],
+  "xlsx_validation": {
+    "sheets": [
+      "2023_Model_A",
+      "2023_Model_B",
+      "2024_Model_A",
+      "2024_Model_B",
+      "2025_Model_A",
+      "2025_Model_B"
+    ],
+    "rows_per_sheet": 576,
+    "data_cells_checked": 69120,
+    "numeric_cells_typed": true,
+    "no_excel_errors": true
+  },
+  "unit_tests": {
+    "passed": true,
+    "tests_run": 19,
+    "failures": 0,
+    "errors": 0,
+    "scope": "Inherited Round3 rules and W10 adapter boundary/kernel regressions"
+  },
+  "original_input_fingerprints_unchanged": true
+}

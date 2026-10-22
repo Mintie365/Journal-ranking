@@ -1,0 +1,10 @@
+{
+  "accepted_pooled_pairs": 106423,
+  "three_requested_window_union_pairs": 101282,
+  "outside_all_requested_windows": 5141,
+  "outside_by_citing_and_cited_year": {
+    "2025->2012": 1692,
+    "2024->2012": 1742,
+    "2025->2013": 1707
+  }
+}

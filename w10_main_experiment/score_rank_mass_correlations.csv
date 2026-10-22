@@ -1,0 +1,97 @@
+﻿year,topic_id,topic_name,model,defined_journals,score_vs_N_spearman,rank_vs_N_spearman
+2023,T01,Statistical inference and asymptotic theory,A,34,0.4377387318563789,-0.4377387318563789
+2023,T01,Statistical inference and asymptotic theory,B,34,0.705729564553094,-0.705729564553094
+2023,T02,Bayesian statistics,A,35,0.673389355742297,-0.673389355742297
+2023,T02,Bayesian statistics,B,35,0.8176470588235294,-0.8176470588235294
+2023,T03,Statistical computing and Monte Carlo,A,36,0.6522522522522523,-0.6522522522522523
+2023,T03,Statistical computing and Monte Carlo,B,36,0.8182754182754183,-0.8182754182754183
+2023,T04,Regression and structured models,A,34,0.47288006111535524,-0.47288006111535524
+2023,T04,Regression and structured models,B,34,0.6895339954163484,-0.6895339954163484
+2023,T05,"Nonparametric, semiparametric and robust statistics",A,34,0.6684491978609626,-0.6684491978609626
+2023,T05,"Nonparametric, semiparametric and robust statistics",B,34,0.8267379679144385,-0.8267379679144385
+2023,T06,Statistical learning and machine learning,A,34,0.7253404372719554,-0.7253404372719554
+2023,T06,Statistical learning and machine learning,B,34,0.814339263931091,-0.814339263931091
+2023,T07,High-dimensional statistics and sparsity,A,32,0.8616992062586049,-0.8616992062586049
+2023,T07,High-dimensional statistics and sparsity,B,32,0.9199890057885424,-0.9199890057885424
+2023,T08,"Multivariate, functional and structured data",A,34,0.6400305576776165,-0.6400305576776165
+2023,T08,"Multivariate, functional and structured data",B,34,0.8044308632543926,-0.8044308632543926
+2023,T09,Time series and stochastic dynamics,A,35,0.6514461813020056,-0.6514461813020056
+2023,T09,Time series and stochastic dynamics,B,35,0.7654597679672028,-0.7654597679672028
+2023,T10,Spatial and spatiotemporal statistics,A,33,0.7785585595742118,-0.7785585595742118
+2023,T10,Spatial and spatiotemporal statistics,B,33,0.8568325457999328,-0.8568325457999328
+2023,T11,"Survival, event history and reliability",A,35,0.5133412716559558,-0.5133412716559558
+2023,T11,"Survival, event history and reliability",B,35,0.6802997425465149,-0.6802997425465149
+2023,T12,Causal inference and treatment effects,A,26,0.882193074148704,-0.882193074148704
+2023,T12,Causal inference and treatment effects,B,26,0.921919159785835,-0.921919159785835
+2023,T13,Experimental design and sequential studies,A,34,0.6082570584970949,-0.6082570584970949
+2023,T13,Experimental design and sequential studies,B,34,0.7174314023299068,-0.7174314023299068
+2023,T14,Survey sampling and official statistics,A,34,0.3413929016122374,-0.3413929016122374
+2023,T14,Survey sampling and official statistics,B,34,0.597858389331695,-0.597858389331695
+2023,T15,Applied statistics and quality methods,A,35,0.3884137833093815,-0.3884137833093815
+2023,T15,Applied statistics and quality methods,B,35,0.601054704636593,-0.601054704636593
+2023,T16,Probability and stochastic process theory,A,33,-0.30782085561497324,0.30782085561497324
+2023,T16,Probability and stochastic process theory,B,33,0.375,-0.375
+2024,T01,Statistical inference and asymptotic theory,A,36,0.4846846846846847,-0.4846846846846847
+2024,T01,Statistical inference and asymptotic theory,B,36,0.7063063063063063,-0.7063063063063063
+2024,T02,Bayesian statistics,A,36,0.7827541827541827,-0.7827541827541827
+2024,T02,Bayesian statistics,B,36,0.8718146718146718,-0.8718146718146718
+2024,T03,Statistical computing and Monte Carlo,A,36,0.6720720720720721,-0.6720720720720721
+2024,T03,Statistical computing and Monte Carlo,B,36,0.8303732303732304,-0.8303732303732304
+2024,T04,Regression and structured models,A,34,0.42245989304812837,-0.42245989304812837
+2024,T04,Regression and structured models,B,34,0.6479755538579068,-0.6479755538579068
+2024,T05,"Nonparametric, semiparametric and robust statistics",A,36,0.6856297073210359,-0.6856297073210359
+2024,T05,"Nonparametric, semiparametric and robust statistics",B,36,0.7968337747371003,-0.7968337747371003
+2024,T06,Statistical learning and machine learning,A,34,0.5981644340664437,-0.5981644340664437
+2024,T06,Statistical learning and machine learning,B,34,0.7187460595574536,-0.7187460595574536
+2024,T07,High-dimensional statistics and sparsity,A,33,0.8244734663409312,-0.8244734663409312
+2024,T07,High-dimensional statistics and sparsity,B,33,0.8930124203554856,-0.8930124203554856
+2024,T08,"Multivariate, functional and structured data",A,35,0.7145658263305322,-0.7145658263305322
+2024,T08,"Multivariate, functional and structured data",B,35,0.8352941176470589,-0.8352941176470589
+2024,T09,Time series and stochastic dynamics,A,35,0.6095664977480817,-0.6095664977480817
+2024,T09,Time series and stochastic dynamics,B,35,0.7437495641181788,-0.7437495641181788
+2024,T10,Spatial and spatiotemporal statistics,A,35,0.7851340120408583,-0.7851340120408583
+2024,T10,Spatial and spatiotemporal statistics,B,35,0.836746966029968,-0.836746966029968
+2024,T11,"Survival, event history and reliability",A,35,0.46417816487526264,-0.46417816487526264
+2024,T11,"Survival, event history and reliability",B,35,0.6221724225636441,-0.6221724225636441
+2024,T12,Causal inference and treatment effects,A,29,0.8711600420053602,-0.8711600420053602
+2024,T12,Causal inference and treatment effects,B,29,0.9043990641092094,-0.9043990641092094
+2024,T13,Experimental design and sequential studies,A,34,0.6362387180508827,-0.6362387180508827
+2024,T13,Experimental design and sequential studies,B,34,0.7096332349132773,-0.7096332349132773
+2024,T14,Survey sampling and official statistics,A,33,0.3052490976355516,-0.3052490976355516
+2024,T14,Survey sampling and official statistics,B,33,0.6265463406013403,-0.6265463406013403
+2024,T15,Applied statistics and quality methods,A,35,0.4117698120483334,-0.4117698120483334
+2024,T15,Applied statistics and quality methods,B,35,0.6142841602658289,-0.6142841602658289
+2024,T16,Probability and stochastic process theory,A,34,-0.16119174942704353,0.16119174942704353
+2024,T16,Probability and stochastic process theory,B,34,0.39312452253628727,-0.39312452253628727
+2025,T01,Statistical inference and asymptotic theory,A,36,0.4962676962676963,-0.4962676962676963
+2025,T01,Statistical inference and asymptotic theory,B,36,0.7091377091377091,-0.7091377091377091
+2025,T02,Bayesian statistics,A,36,0.7655083655083655,-0.7655083655083655
+2025,T02,Bayesian statistics,B,36,0.8648648648648649,-0.8648648648648649
+2025,T03,Statistical computing and Monte Carlo,A,36,0.6386100386100386,-0.6386100386100386
+2025,T03,Statistical computing and Monte Carlo,B,36,0.7722007722007722,-0.7722007722007722
+2025,T04,Regression and structured models,A,36,0.5536679536679536,-0.5536679536679536
+2025,T04,Regression and structured models,B,36,0.7191763191763192,-0.7191763191763192
+2025,T05,"Nonparametric, semiparametric and robust statistics",A,36,0.6851148736755912,-0.6851148736755912
+2025,T05,"Nonparametric, semiparametric and robust statistics",B,36,0.8048136962414938,-0.8048136962414938
+2025,T06,Statistical learning and machine learning,A,34,0.716909791148961,-0.716909791148961
+2025,T06,Statistical learning and machine learning,B,34,0.7995418695311252,-0.7995418695311252
+2025,T07,High-dimensional statistics and sparsity,A,35,0.8224412016090734,-0.8224412016090734
+2025,T07,High-dimensional statistics and sparsity,B,35,0.8953725496371632,-0.8953725496371632
+2025,T08,"Multivariate, functional and structured data",A,35,0.719327731092437,-0.719327731092437
+2025,T08,"Multivariate, functional and structured data",B,35,0.8397759103641457,-0.8397759103641457
+2025,T09,Time series and stochastic dynamics,A,36,0.6539674381261843,-0.6539674381261843
+2025,T09,Time series and stochastic dynamics,B,36,0.7504987466470735,-0.7504987466470735
+2025,T10,Spatial and spatiotemporal statistics,A,35,0.7826094653783475,-0.7826094653783475
+2025,T10,Spatial and spatiotemporal statistics,B,35,0.8403935334313725,-0.8403935334313725
+2025,T11,"Survival, event history and reliability",A,35,0.44173669467787113,-0.44173669467787113
+2025,T11,"Survival, event history and reliability",B,35,0.6145658263305322,-0.6145658263305322
+2025,T12,Causal inference and treatment effects,A,29,0.8901612625124997,-0.8901612625124997
+2025,T12,Causal inference and treatment effects,B,29,0.9332096392988185,-0.9332096392988185
+2025,T13,Experimental design and sequential studies,A,36,0.6991435099989775,-0.6991435099989775
+2025,T13,Experimental design and sequential studies,B,36,0.7941239278550597,-0.7941239278550597
+2025,T14,Survey sampling and official statistics,A,33,0.28050820691810274,-0.28050820691810274
+2025,T14,Survey sampling and official statistics,B,33,0.5539953502542267,-0.5539953502542267
+2025,T15,Applied statistics and quality methods,A,35,0.596461315515739,-0.596461315515739
+2025,T15,Applied statistics and quality methods,B,35,0.748318510413664,-0.748318510413664
+2025,T16,Probability and stochastic process theory,A,35,-0.02997198879551821,0.02997198879551821
+2025,T16,Probability and stochastic process theory,B,35,0.5131652661064425,-0.5131652661064425

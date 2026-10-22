@@ -1,0 +1,37 @@
+{
+  "checks": {
+    "years": true,
+    "topics": true,
+    "gamma": true,
+    "delta": true,
+    "alpha": true,
+    "rho": true,
+    "half_life_years": true,
+    "top_k_tie_policy": true,
+    "top_k_positive_scores_only": true,
+    "rank_tie_relative_tolerance": true,
+    "rank_tie_absolute_tolerance": true,
+    "rho_matches_inherited_impact": true,
+    "half_life_matches_inherited_impact": true,
+    "citing_windows_unchanged": true,
+    "only_A_kappa10_and_single_B": true
+  },
+  "intentional_changes": [
+    "Cited windows expanded from four calendar years to ten as explicitly specified.",
+    "Previously frozen final topic weights replace equal-membership labels.",
+    "Latest accepted W10 paper/citation database is used.",
+    "Only the requested main A(kappa=10) and B are evaluated; no sensitivity grids."
+  ],
+  "preserved_prestige_boundary": "fixed_170_journals; cited_year_2016_to_citing_year; no_topic_window_filter",
+  "decay_clock": "evaluation_year minus citing_publication_year; not cited-paper age",
+  "reference_normalization": "delta=0: every valid citing paper has R**0=1, including absent reference counts",
+  "W10_adapter_reason": "The inherited matrices_for_year nests topic accumulation behind prestige_cited_start=2016. Topic accumulation is separated from that prestige-only bound so 2012-2015 cited papers enter W10. No B/P/pi is rebuilt; cached historical prestige remains unchanged.",
+  "reused_functions": {
+    "citation_time_decay": "/Users/vickey/Downloads/Journal ranking/Round 1 experiment/rank 1/model.py:temporal_weight",
+    "prestige_weight": "/Users/vickey/Downloads/Journal ranking/Round 1 experiment/rank 2/common.py:source_weights",
+    "publication_mass": "/Users/vickey/Downloads/Journal ranking/Round 1 experiment/rank 2/model.py:window_mass",
+    "chronology": "/Users/vickey/Downloads/Journal ranking/Round 1 experiment/rank 2/model.py:valid_chronology",
+    "score_rank_top5": "/Users/vickey/Downloads/Journal ranking/Round 1 experiment/rank 3/core.py:scores/rank_values/top_k/compare",
+    "correlations": "/Users/vickey/Downloads/Journal ranking/Round 1 experiment/rank 3/core.py:spearman/kendall_b"
+  }
+}

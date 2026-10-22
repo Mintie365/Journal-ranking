@@ -1,0 +1,48 @@
+{
+  "A_vs_B_spearman_mean": 0.9517355616659754,
+  "A_vs_B_spearman_median": 0.9679515475242081,
+  "A_vs_B_spearman_min": 0.6925133689839572,
+  "A_vs_B_kendall_mean": 0.8497786115114353,
+  "same_top1_topic_years": 18,
+  "topic_years": 48,
+  "top5_overlap_mean": 3.5208333333333335,
+  "top5_jaccard_mean": 0.5644841269841269,
+  "A_top5_mean_N": 57.33394611545672,
+  "B_top5_mean_N": 90.86763350545648,
+  "small_mass_records": 661,
+  "small_mass_A_top5": 32,
+  "small_mass_B_top5": 4,
+  "small_mass_A_top10": 85,
+  "small_mass_B_top10": 51,
+  "A_score_vs_N_spearman_mean": 0.5793111290005762,
+  "A_rank_vs_N_spearman_mean": -0.5793111290005762,
+  "A_adjacent_year_spearman_mean": 0.9686842532945645,
+  "A_adjacent_full_mean_absolute_rank_change": 1.4941943754633917,
+  "B_score_vs_N_spearman_mean": 0.7461813698256722,
+  "B_rank_vs_N_spearman_mean": -0.7461813698256722,
+  "B_adjacent_year_spearman_mean": 0.9727404165324144,
+  "B_adjacent_full_mean_absolute_rank_change": 1.3343647820408406,
+  "by_year": [
+    {
+      "year": 2023,
+      "mean_spearman": 0.9449405886576717,
+      "mean_kendall": 0.8389016903761153,
+      "same_top1": 6,
+      "mean_top5_overlap": 3.5625
+    },
+    {
+      "year": 2024,
+      "mean_spearman": 0.9538254911501896,
+      "mean_kendall": 0.8521952709987832,
+      "same_top1": 4,
+      "mean_top5_overlap": 3.4375
+    },
+    {
+      "year": 2025,
+      "mean_spearman": 0.9564406051900652,
+      "mean_kendall": 0.8582388731594071,
+      "same_top1": 8,
+      "mean_top5_overlap": 3.5625
+    }
+  ]
+}

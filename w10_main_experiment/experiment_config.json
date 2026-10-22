@@ -1,0 +1,115 @@
+{
+  "years": [
+    2023,
+    2024,
+    2025
+  ],
+  "topics": [
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T05",
+    "T06",
+    "T07",
+    "T08",
+    "T09",
+    "T10",
+    "T11",
+    "T12",
+    "T13",
+    "T14",
+    "T15",
+    "T16"
+  ],
+  "kappas": [
+    10
+  ],
+  "gamma": 1,
+  "delta": 0,
+  "alpha": 0.85,
+  "rho": 0.5,
+  "half_life_years": 2,
+  "topic_weight_method": "frozen_final_soft_or_single_or_accepted_equal",
+  "windows": {
+    "2023": {
+      "citing": [
+        2021,
+        2023
+      ],
+      "cited": [
+        2012,
+        2021
+      ]
+    },
+    "2024": {
+      "citing": [
+        2022,
+        2024
+      ],
+      "cited": [
+        2013,
+        2022
+      ]
+    },
+    "2025": {
+      "citing": [
+        2023,
+        2025
+      ],
+      "cited": [
+        2014,
+        2023
+      ]
+    }
+  },
+  "top_k_tie_policy": "include_all",
+  "top_k_positive_scores_only": true,
+  "rank_tie_relative_tolerance": 1e-10,
+  "rank_tie_absolute_tolerance": 1e-14,
+  "small_mass_thresholds": [
+    1,
+    5,
+    10
+  ],
+  "small_sample_flag_mass_threshold": 10,
+  "few_actual_papers_max": 3,
+  "small_effective_sample_size_threshold": 5,
+  "source_csv": "rank 2/results/rankings_round2_by_year.csv",
+  "source_2025_csv": "rank 2/results/rankings_round2_2025.csv",
+  "source_manifest": "rank 2/results/run_manifest.json",
+  "source_validation": "rank 2/results/validation.json",
+  "source_file_manifest": "rank 2/results/file_manifest.json",
+  "target_list": "journal selection/inputs/JR_target_36_journals.csv",
+  "diagnostic_cases": [
+    {
+      "journal_name": "Monte Carlo Methods and Applications",
+      "topic_id": "T08"
+    },
+    {
+      "journal_name": "Chilean Journal of Statistics",
+      "topic_id": "T03"
+    },
+    {
+      "journal_name": "Mathematical Methods of Statistics",
+      "topic_id": "T03"
+    }
+  ],
+  "cited_window_years": 10,
+  "citing_window_years": 3,
+  "citation_lag_years": 2,
+  "models": [
+    "A",
+    "B"
+  ],
+  "network_nodes": 170,
+  "target_journals": 36,
+  "background_journals": 134,
+  "prestige_policy": "read_original_annual_cached_pi_only_no_network_rebuild",
+  "source_prestige_weight": "(pi / mean_over_all_170_nodes) ** gamma",
+  "actual_topic_paper_count": "positive_q_only_zero_memberships_contribute_no_mass",
+  "cited_window_policy": "calendar bounds only; no new per-edge minimum-age constraint",
+  "page_rank_calls": 0,
+  "new_llm_calls": 0,
+  "new_external_api_calls": 0
+}
